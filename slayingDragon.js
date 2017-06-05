@@ -8,21 +8,14 @@ while (slaying){
   if (youHit === 1){
   console.log("Congrat!U hit Dragon");
   totalDamage += damageThisRound;
-  if (totalDamage >= 4){
-  console.log("You Slew it!");
-  slaying = false;
-  }else{
-
-  youHit = Math.floor(Math.random()*2);
-
-  }
-
-
+      if (totalDamage >= 4){
+      console.log("You Slew it!");
+      slaying = false;
+      }else{
+      youHit = Math.floor(Math.random()*2);
+      }
   }else{
   console.log("Defeated");
-
   }
-
   slaying = false;
-
   }
