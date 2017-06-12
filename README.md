@@ -1,2 +1,2 @@
-# javascriptStudy
-Javascript scripts and algorithms study from FCC & Codeacademy
+# frontEnd study
+projects and algorithms study from FCC & Codeacademy
