@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+img {width:100%;border:0;vertical-align:middle}
+*{margin:0;padding:0}
+html{font-size:62.5%; width:100%; height:100%}
+h3{ font-weight: 400;}
+body { background-color: #eee;
+	width: 100%;
+	min-height: 100%;
+	margin: 0px auto;
+	color: #333333;
+	font-size: 12px; font-size:1.2rem;
+	font-family: "Microsoft YaHei", Arial, sans-serif;	
+}
+.clearx { clear:both}
+ul{list-style-type:none}
+
+
+a{text-decoration:none}
+.img-responsive{max-width: 100%;height: auto}
+.guess ul{ margin-right: 3rem}
+.guess ul li { width:48%; margin-left:2%; float:left; margin-bottom:0.8rem}
+.guess ul li>a { display:block; padding:0.5rem 0;font-size:1.3rem;color:#171817; background:#fff; text-align:center}
+.guess ul li>a img { width:90%;}
+.guess ul li>a p { text-align: left; font-size:1.5rem; margin-top:0.5rem; padding:0.5rem 3.5rem;}
+.credit{float:right; color:#e31010;}
+hr{margin:10px;}
+#banner{position:relative;}
+#scan{width:5%;position:absolute; top:20px; left:50px; }
+#message{width:5%;position:absolute; top:20px; right:50px; }
+input{position:absolute; top:40px; left:32rem; height:4rem;width:80rem;text-align: center; border:none; color:#fff;background: rgba(255, 255, 255, 0.4);border-radius: 30px;font-size:2rem;}
+.box i{position:absolute; top:50px; color:black; left:62rem; color:#FFFFFF;font-size:20px;}
+
+#scan>p {color:#FFFFFF; font-size:2rem; letter-spacing: 4px }
+#message>p {color:#FFFFFF; font-size:2rem; letter-spacing: 4px; text-align: center; }
+article.member { padding:15px; background:#fff; margin-bottom:10px}
+article.member h3 a { font-size:1.2rem; color:#6d6d6d; position:absolute; right:0px; top:0}
+article.member>span { display:block; margin-top:10px;margin-left: -10px; margin-right: -10px;}
+article.member>span a { width:20%; display:inline-block; float:left; padding-top:35px; text-align:center; font-size:1.3rem; color:#000}
+article.member>span a.mcon_1 { background:url(./pic/账户.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_2 { background:url(./pic/转账.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_3 { background:url(./pic/信用卡还款.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_4 { background:url(./pic/收支明细.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_5 { background:url(./pic/更换银行卡.png) no-repeat top center; background-size:35px}
+article.member>span a.mcon_6 { background:url(./pic/借.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_7 { background:url(./pic/燃气.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_8 { background:url(./pic/礼品.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_9 { background:url(./pic/账单.png) no-repeat top center; background-size:30px}
+article.member>span a.mcon_10 { background:url(./pic/全部.png) no-repeat top center; background-size:35px}
+article.member>span a.mcon_12 { background:url(./pic/活期.png) no-repeat; background-size:50px;background-position:280px; padding:30px; margin:30px;}
+article.member>span a.mcon_13 { background:url(./pic/短期.png) no-repeat; background-size:50px;background-position:280px; padding:30px; margin:30px;}
+article.member>span a.mcon_14 { background:url(./pic/长期.png) no-repeat; background-size:50px;background-position:280px; padding:30px; margin:30px;}
+
+article.member.custom>span a { width:25%; padding:1;}
+article.member.custom>span a b {color:#f31148; font-size:2.3rem; display:block; font-weight:normal; height:35px; line-height:35px; }
+article.member.custom>span a p {font-size:2rem; display:block; font-weight:normal; height:35px;text-align: left; letter-spacing: 1px}
+article.member.custom>span a p.intro {color:#989898; font-size:1.3rem; display:block; font-weight:normal;}
+article.member.custom>span a span { color:#f31148; display:block; text-align:left; padding-left: 142px}
+article.member> a.mcon_11 {float:right; background:url(../pic/向右箭头.png) no-repeat; background-size:10px;padding:10px;}
+#more{display: block; padding:10px 40px; float: right;}
+
+footer {position: fixed;right: 0; bottom: 0;left: 0; height:8rem; background-color: #fff; border-top: 1px solid #e6e6e6;}
+footer a { display:inline-block; width:24%; height:4rem; padding:0.5rem 0; text-align:center;font-size:1.2rem;color:#171817; }
+footer a i { display:block; width:20%; height:38px; margin:0 auto; background-size:10px auto; margin-bottom:0.5rem}
+footer a i.icon-f1 { background:url(./pic/首页.png) no-repeat center; background-position:-5px 2px 2px}
+footer a i.icon-f2 { background:url(./pic/理财.png) no-repeat center; background-position:-5px 2px 2px}
+footer a i.icon-f3 { background:url(./pic/生活.png) no-repeat center; background-position:-5px 2px 2px}
+footer a i.icon-f4 { background:url(./pic/我的.png) no-repeat center; background-position:-5px 2px 2px}
